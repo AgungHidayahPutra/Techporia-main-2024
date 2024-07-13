@@ -6,7 +6,8 @@
 <?= $this->section('content'); ?>
 
 <div class="main">
-    <div class="section light" style="padding: 3rem 0;">
+    <h1 class="comingsoon">COMING SOON</h1>
+    <!-- <div class="section light" style="padding: 3rem 0;">
         <div class="detail-horizontal">
             <div class="image">
                 <img src="/assets/images/seminar.webp" alt="Seminar Nasional" />
@@ -14,6 +15,7 @@
             <div class="keterangan">
                 <h1>SEMINAR NASIONAL</h1>
                 <h1>TECHNOLOGY EUPHORIA 2023</h1>
+                <h1>COMING SOON</h1>
                 <div class="paragraphs">
                     <p>Dengan tema: “Expressing, Educating, and Inspiring change through Digital Creative in the Era of
                         5.0”, yang akan membahas tentang pentingnya teknologi pada perkembangan dunia untuk meraih
@@ -70,7 +72,7 @@
                 <?php endif; ?>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 
 <?= $this->endSection(); ?>

@@ -151,6 +151,7 @@ header.sticky {
 
 .header-logo span {
     font-family: "Technonomicon";
+    font-size: 12px;
 }
 @media (max-width: 620px) {
     .header-logo span {
@@ -172,7 +173,6 @@ nav ul {
 }
 .nav-dropdown{
     font-family: 'ST-SimpleSquare';
-
 }
 
 nav .right-corner {
@@ -181,7 +181,7 @@ nav .right-corner {
 }
 
 .nav-link {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
     color: var(--text);
     cursor: pointer;
@@ -1280,7 +1280,7 @@ textarea {
 }
 
 .section > h1 {
-    font-size: clamp(30px, 3vw, 3rem);
+    font-size: clamp(30px, 3vw, 2rem);
     font-weight: 700;
     font-family: "Technonomicon";
     text-align: center;
@@ -1472,7 +1472,7 @@ textarea {
 }
 
 .about-detail h1 {
-    font-size: clamp(15px, 3.5vw, 2.8rem);
+    font-size: clamp(15px, 3.5vw, 2rem);
     font-weight: 700;
     font-family: "Technonomicon";
     text-align: center;
@@ -1550,6 +1550,13 @@ textarea {
 
 #seminar {
     padding: 5vw 0;
+}
+
+.comingsoon {
+    text-align: center;
+    margin-top: 250px;
+    font-size: 50px;
+    font-family: "technonomicon";
 }
 
 .seminar-img {
@@ -1942,7 +1949,8 @@ textarea {
     object-fit: cover;
     width: 100%;
     max-height: 100%;
-    border-radius: 10px;
+    /* border: 3px solid var(--neon-border-color); */
+    border-radius: 20px;
 }
 
 .kilas-balik-grid .grid-child .overlay {
@@ -1955,6 +1963,7 @@ textarea {
     opacity: 0;
     display: flex;
     align-items: center;
+    border-radius: 20px;
     justify-content: center;
     transition: 0.3s all;
 }

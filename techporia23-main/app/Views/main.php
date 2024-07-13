@@ -10,7 +10,7 @@
         <div class="hero-bg">
         </div>
         <div class="hero onscroll">
-            <h3>Keluarga Mahasiswa FASILKOM UNSRI</h3>
+            <h3>FASILKOM UNSRI</h3>
             <h1>Technology Euphoria</h1>
             <div id="theme-text"></div>
             <div class="container-5" style="margin-top: 3rem;">
@@ -130,7 +130,7 @@
     </div> -->
 
     <div class="section onscroll" id="kilas-balik">
-        <h1>KILAS BALIK TECHNOLOGY EUPHORIA 2023</h1>
+        <h1>KILAS BALIK <br> TECHNOLOGY EUPHORIA 2023</h1>
         <p>Dalam Technology Euphoria ini, terdapat beberapa lomba yang diadakan seperti dibawah ini</p>
         <a href="<?= base_url('sejarah'); ?>" class="btn btn-fancy">Selengkapnya</a>
         <div class="kilas-balik-grid">

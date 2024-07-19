@@ -1559,6 +1559,10 @@ textarea {
     font-family: "technonomicon";
 }
 
+.seminar-img {
+    width: 80%;
+}
+
 .detail-horizontal {
     display: flex;
     align-items: center;

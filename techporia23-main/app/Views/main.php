@@ -93,6 +93,41 @@
         </div>
     </div>
 
+    <div class="section" id="competition">
+        <h1 class="onscroll-r">ART COMPETITION</h1>
+        <p class="onscroll-r">Dalam Technology Euphoria ini, terdapat beberapa lomba yang diadakan seperti dibawah ini
+        </p>
+        <div class="competition-grid">
+            <div class="first-grid">
+                <div class="grid-child onscroll-r" style="--delay: 0;">
+                    <img src="<?= base_url('assets/images/competition-logo/bplan.webp'); ?>" alt="Business Plan"
+                        class="logo-kompetisi-lg" />
+                    <div class="competition-detail">
+                        <p>Lukis</p>
+                        <a href="<?= base_url('kompetisi/business-plan'); ?>" class="btn btn-secondary">Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="grid-child onscroll-r" style="--delay: 1;">
+                    <img src="<?= base_url('assets/images/competition-logo/netcomp.webp'); ?>" alt="Network Competition"
+                        class="logo-kompetisi-lg" />
+                    <div class="competition-detail">
+                        <p>Tari Kreasi</p>
+                        <a href="<?= base_url('kompetisi/networking-competition'); ?>"
+                            class="btn btn-secondary">Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="grid-child onscroll-r" style="--delay: 2;">
+                    <img src="<?= base_url('assets/images/competition-logo/ui-ux.webp'); ?>" alt="UI/UX Design"
+                        class="logo-kompetisi-lg" />
+                    <div class="competition-detail">
+                        <p>Band/Akustik</p>
+                        <a href="<?= base_url('kompetisi/ui-ux'); ?>" class="btn btn-secondary">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- <div class="section light" id="seminar">
         <div class="section-seminar">
             <div class="item center onscroll-r">
